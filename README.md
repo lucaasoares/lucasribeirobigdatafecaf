@@ -133,6 +133,11 @@ sql
 SELECT * FROM temperature_readings LIMIT 10;
 
 
+Sair do SQL
+
+sql
+\q
+
 ---
 
 ## 📊 Executando o Dashboard
