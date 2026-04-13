@@ -10,6 +10,14 @@ O objetivo é simular um cenário real de monitoramento de temperatura utilizand
 
 ---
 
+## 🔗 Fonte dos Dados
+
+Os dados utilizados neste projeto estão disponíveis publicamente no Kaggle:
+
+👉 https://www.kaggle.com/datasets/atulanandjha/temperature-readings-iot-devices
+
+---
+
 ## 🧠 Arquitetura do Projeto
 
 O fluxo de dados segue as etapas abaixo:
@@ -136,6 +144,15 @@ Acesse no navegador:
 
 http://localhost:8501
 
+---
+
+## 📸 Capturas de Tela do Dashboard
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
 
 ---
 
@@ -158,6 +175,17 @@ O dashboard apresenta:
 ### ⏱ Leituras por Hora
 
 * Gráfico de linha mostrando volume de leituras ao longo do tempo
+
+---
+
+## 💻 Comandos Git Utilizados
+
+git init
+git add .
+git commit -m "Projeto IoT pipeline completo"
+git branch -M main
+git remote add origin https://github.com/seu-usuario/seu-repositorio.git
+git push -u origin main
 
 ---
 
