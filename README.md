@@ -22,15 +22,15 @@ Os dados utilizados neste projeto estão disponíveis publicamente no Kaggle:
 
 O fluxo de dados segue as etapas abaixo:
 
-```
+
 CSV → ETL (Python) → PostgreSQL (Docker) → Dashboard (Streamlit)
-```
+
 
 ---
 
 ## 📁 Estrutura do Projeto
 
-```
+
 iot-pipeline/
 │
 ├── etl.py                # Script ETL (carrega CSV para o banco)
@@ -43,7 +43,7 @@ iot-pipeline/
 │
 └── app/
     └── app.py            # Dashboard Streamlit
-```
+
 
 ---
 
@@ -237,3 +237,7 @@ Lucas Ribeiro Soares.
 ✔ Visualizações implementadas
 
 ---
+
+## 🎥 Link YouTube
+
+Video Pitch; https://youtu.be/YfKRXoxQOAk

@@ -10,6 +10,6 @@ df = pd.read_csv("data/IOT-temp.csv")
 print(df.head())
 
 # enviar para o banco
-df.to_sql("temperature_readings", engine, if_exists="replace", index=False)
+df.to_sql("temperature_readings", engine, if_exists="append", index=False)
 
 print("Dados enviados com sucesso!")
